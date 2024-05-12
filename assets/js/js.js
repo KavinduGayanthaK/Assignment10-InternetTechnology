@@ -19,6 +19,10 @@ $('.symbol').click(function () {
     symbol = $(this).text();
 })
 
+$('#btn-c').on('click', () => {
+    $('#display-input').val("")
+})
+
 
 
 
