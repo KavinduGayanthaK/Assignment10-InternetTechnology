@@ -13,6 +13,12 @@ function appendToDisplay(value) {
 
 
 
+$('.symbol').click(function () {
+    number1 = $('#display-input').val();
+    $('#display-input').val("");
+    symbol = $(this).text();
+})
+
 
 
 
