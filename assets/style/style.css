@@ -1,0 +1,69 @@
+section{
+    width: 100vw;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 7px
+}
+.main{
+    width: 21%;
+    height: 80%;
+    background-color: #8d8d8d;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border:1px solid black;
+    border-radius: 10px 10px 0 0;
+
+
+ }
+button{
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.display1{
+    width: 90%;
+    height: 15%;
+    margin-top:10px;
+    margin-left:13px;
+    margin-bottom: 20px;
+
+
+}
+
+#display-input{
+    border-radius: 10px;
+    width: 97.5%;
+    height: 90%;
+    background-color: #c8deff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Eras Bold ITC";
+    text-align: end;
+    align-items: end;
+}
+
+.btn-control{
+    color: black;
+    width: 4rem;
+    height: 2rem;
+    margin-top: 10px;
+    background-color: #ff8b33;
+    margin-left: 10px;
+    border: 1px solid orange;
+    font-weight: bold;
+}
+
