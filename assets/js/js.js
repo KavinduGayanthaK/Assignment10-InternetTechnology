@@ -13,13 +13,13 @@ $('.symbol').click(function () {
     let currentValue = $('#display-input').val();
     numbers.push(currentValue);
     operators.push($(this).text());
-    $('#sym').val($(this).text())
+    $('#symbol-display').val($(this).text())
     $('#display-input').val(""); // Clear display for next number input
 });
 
 $('#btn-c').on('click', () => {
     $('#display-input').val("");
-    $('#sym').val("")
+    $('#symbol-display').val("")
     numbers = [];
     operators = [];
 });
