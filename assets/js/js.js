@@ -36,7 +36,7 @@ $('.equal').click(function () {
             result += nextNumber;
         } else if (operators[i] === '-') {
             result -= nextNumber;
-        } else if (operators[i] === '*') {
+        } else if (operators[i] === 'x') {
             result *= nextNumber;
         } else if (operators[i] === '/') {
             result /= nextNumber;
